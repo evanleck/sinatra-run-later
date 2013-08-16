@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.version       = Sinatra::RunLater::VERSION
   spec.authors       = ['Evan Lecklider']
   spec.email         = ['evan.lecklider@gmail.com']
-  spec.description   = %q{TODO: Write a gem description}
+  spec.description   = %q{A simple way to do real after filtering with Sinatra.}
   spec.summary       = spec.description
   spec.homepage      = 'https://github.com/l3ck/sinatra-run-later'
   spec.license       = 'MIT'
