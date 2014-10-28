@@ -32,6 +32,16 @@ get '/' do
 end
 ```
 
+If you're running a modular style app, just add the helpers like so:
+
+```ruby
+class YourApp
+  configure do
+    helpers Sinatra::RunLater::InstanceMethods
+  end
+end
+```
+
 ## Contributing
 
 1. Fork it
